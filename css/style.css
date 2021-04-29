@@ -1,60 +1,84 @@
-html, body{
-	font-family: 'Open Sans', sans-serif;
-	background: #FFf;
-	width: 100%;
-    scroll-behavior: smooth;
+html,
+body {
+  font-family: "Open Sans", sans-serif;
+  background: #fff;
+  width: 100%;
+  scroll-behavior: smooth;
 }
 
-body a{
-	transition:0.5s all;
-	-webkit-transition:0.5s all;
-	-moz-transition:0.5s all;
-	-o-transition:0.5s all;
-	-ms-transition:0.5s all;
+body a {
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -ms-transition: 0.5s all;
 }
 
 /* Header start */
 header {
-    background: #134E5E;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #71B280, #134E5E);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #71B280, #134E5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	position: fixed;
-	z-index: 5;
-	width: 100%;
-	display: flex;
-	justify-content: space-between;
-    padding: 5px
+  background: #134e5e; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #71b280,
+    #134e5e
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #71b280,
+    #134e5e
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  position: fixed;
+  z-index: 5;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
 }
 
 header .navbar-brand {
-    margin-right: 4em;
+  margin-right: 4em;
 }
 
 header li a {
-    font-size: 20px;
-    letter-spacing: 2px;
-    /* margin-left: 2em; */
+  font-size: 20px;
+  letter-spacing: 2px;
+  /* margin-left: 2em; */
 }
 
-header  li a:hover{
-    color:#2ABF5E !important;
+header li a:hover {
+  color: #2abf5e !important;
 }
 /* Header section end */
 /* Home section start */
 #home {
-    padding-top: 65px;
+  padding-top: 65px;
+}
+/* Home section end */
+
+/* About section start */
+#about {
+  background-color: #ffffff;
 }
 
-/* .carousel-inner{
-    width:100%;
-    max-height: 650px !important;
-  } */
+#about .section-heading h3 {
+  color: #1f958e;
+  font-weight: 600;
+  font-size: 2.7em;
+}
 
-
+#about p {
+  margin: 0.9em auto;
+  font-size: 1.25em;
+  line-height: 1.8em;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  width: 66%;
+  color: #888888;
+}
 
 /* Media Query  */
-@media(min-width:991px){
-    header li a {
-        margin-left: 1em;
-    }
+@media (min-width: 991px) {
+  header li a {
+    margin-left: 1em;
+  }
 }
