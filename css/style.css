@@ -80,6 +80,7 @@ header li a:hover {
 /* Magazines section start */
 #magazines {
   /* background: #1D976C; */
+  padding-bottom: 30px;
   background: -webkit-linear-gradient(to right, #93f9b9, #1d976c);
   background: linear-gradient(to right, #93f9b9, #1d976c);
 }
@@ -91,6 +92,23 @@ header li a:hover {
     /* margin-bottom: 2em; */
     width: 100%;
     margin-bottom: 20px;
+}
+
+#magazines a {
+  background-color: #ffff;
+  color:#1E494C;
+  text-decoration: none;
+  padding:10px;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  border: 2px solid #1E494C;
+  border-radius: 0.4em;
+}
+
+#magazines a:hover {
+  background: none;
+	border: 2px solid #fff;
+	color:#fff;
 }
 
 /* Media Query  */
